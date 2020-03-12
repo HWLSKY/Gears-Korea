@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8">
   <title>Gears Korea</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
   <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="package/css/swiper.min.css">
 
@@ -62,6 +64,8 @@
     </div>
       <div class="swiper-button-next"></div>
       <div class="swiper-button-prev"></div>
+
+      <div class="swiper-pagination"></div>
   </div>
 
   <!-- Swiper JS -->
@@ -73,6 +77,10 @@
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        dynamicBullets: true,
       },
     });
   </script>
