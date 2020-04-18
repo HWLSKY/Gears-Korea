@@ -6,7 +6,7 @@
 	font-style:normal
 }
 :root {
-	--swiper-theme-color:#c2c2c2
+	--swiper-theme-color:#c2c2c2;
 }
 .swiper-container {
 	margin-left:auto;
